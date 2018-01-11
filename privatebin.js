@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/env nodejs
 
 /**
  * PrivateBin-Cli
@@ -17,7 +17,7 @@
 
 global.sjcl = require('./sjcl-1.0.6');
 var password = process.argv[3] || '',
-    privatebinHost = process.argv[4] || 'privatebin.net',
+    privatebinHost = process.argv[4] || 'paste.systemli.org',
     privatebinProtocol = 'https',
     privatebinPort = 443,
     privatebinPath = '/',
